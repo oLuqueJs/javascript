@@ -26,6 +26,7 @@ console.log(--counter);  // removes -1 from the actual counter value and then re
 console.log(counter--);  // returns counter and then removes -1 from the actual counter value  | COUNTER = 1 now
 console.log(counter);    // returns counter value (1)
 
+
 // Assignment Operator
 let pace = 2;
 
@@ -38,6 +39,7 @@ console.log(counter -= pace);    // counter = counter - pace (5 - 2)
 console.log(counter **= pace);   // counter = counter ** pace (3^2)    
 console.log(counter %= pace);    // counter = counter % pace  (9 % 2)
 console.log(counter);            // counter = 1
+
 
 // parseint & parsefloat & Number functions
 let stringNum = '5'                     // string
