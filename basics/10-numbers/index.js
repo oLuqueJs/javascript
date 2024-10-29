@@ -18,3 +18,6 @@ num1 += num2; //0.89999999...
 num1 += num2; //0.99999999...
 
 num1 = parseFloat(num1.toFixed(2)); // fix it
+
+// Infinity
+console.log(100 / 0);
