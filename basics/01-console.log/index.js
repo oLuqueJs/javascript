@@ -7,7 +7,7 @@ console.log(age);
 console.log(35, 155.5);
 
 // Basic concatenation
-console.log('Your agr is:', age)
+console.log('Your age is:', age)
 
 //basic interpolation
 console.log(`Your age is ${age}`)
