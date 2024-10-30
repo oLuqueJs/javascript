@@ -1,11 +1,11 @@
-// basic function
+// Basic function
 function cheers() {
     console.log("Hallo!");
 }
 cheers(); // call cheers function
 
 
-// basic function with params
+// Basic function with params
 function cheersWithName(name) {
     console.log(`Hallo ${name}!`);
 }
@@ -13,16 +13,17 @@ cheersWithName('Klauss');  // Klauss is the param for name "Hallo Klauss!"
 cheersWithName('Levi');
 
 
-// another basic function with params
+// Basic function with params
 function sum(x, y) {
     const result = x + y;
     return  result;
 }
-console.log(sum(2,2));  // 4
-console.log(sum(10,3)); // 13
+const resultdouble = sum(2,2)
+console.log(resultdouble);  // 4
+console.log(sum(10,3));     // 13
 
  
-// store function return in a variable
+// Function return in a variable
 function cheersVariable(name) {
     return `Hallo ${name}!`;
 }
@@ -30,10 +31,22 @@ const resCheers = cheersVariable('Marco');
 console.log(resCheers); // function return
 
 
+// Function in a variable
+const Quadratwurzel = function (n) {
+    return n ** 0.5;
+};
+
+console.log(Quadratwurzel(9))
+console.log(Quadratwurzel(16))
+console.log(Quadratwurzel(25))
 
 
+// Arrow function
+const ArrowQuadratwurzel = (n) => {            
+    return n ** 0.5
+}
 
-
+const SimpleArrowQuadratwurzel = n => n ** 0.5;
 
 
 
