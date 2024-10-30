@@ -28,7 +28,7 @@ function cheersVariable(name) {
     return `Hallo ${name}!`;
 }
 const resCheers = cheersVariable('Marco');
-console.log(resCheers); // function return
+console.log(resCheers);     // function return
 
 
 // Function in a variable

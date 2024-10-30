@@ -1,4 +1,5 @@
 // Array is a collection or a list
+// even when an array is a const, we can change values ​​in the array.
 
 //basic array
 const students = ['James', 'Jobe', 'Rodri'];
