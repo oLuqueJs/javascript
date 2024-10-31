@@ -31,17 +31,20 @@ const comp13 = num1 !== num2 // comp = False, cause num1 value & type is not dif
 const comp14 = num1 !== num3 // comp = True, cause num1 value & type is different from num3 value & type
 
 /*
-    dictionary
-    ** A comparison operator always return a boolean value, (10 > 5) = True
-    ** Hint, the (>) always must point to the smaller value 
+    Dictionary of Comparison Operators
+    ==================================
 
-    >   greater
-    >=  greater equal 
-    <   smalllest
-    <=  smallest equal
-    ==  equality        (value) -> It is not recommended to use
-    === strict equality     (value + type)
-    !=  different       (value)
-    !== strict different    (valuee + type)
+    Each comparison operator returns a boolean value:
+    e.g., (10 > 5) returns true
 
+    Hint Note: The greater-than symbol (>) always points to the smaller value.
+
+    >    Greater Than
+    >=   Greater Than or Equal To
+    <    Less Than
+    <=   Less Than or Equal To
+    ==   Equality (value only)          ! Not recommended for strict comparisons
+    ===  Strict Equality (value + type) ! Preferred for precise comparisons
+    !=   Not Equal (value only)
+    !==  Strict Not Equal (value + type) ! Recommended for avoiding type coercion
 */
