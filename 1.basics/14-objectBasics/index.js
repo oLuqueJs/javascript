@@ -36,7 +36,7 @@ const gingerPerson = {
     hairColor: 'rothaarig',
 
     cheers() {
-        // We use .this to access attributes declared within the object
+        // We use this. to access attributes declared within the object
         console.log(`Hallo ${this.personName}!`);   
     },
 
