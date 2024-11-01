@@ -2,7 +2,7 @@
 function myScope () {
 
     const form = document.querySelector('.form');
-    const result = document.querySelector('.results')
+    const result = document.querySelector('.results');
     const persons = [];
     let counter = 1;
 
