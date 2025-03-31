@@ -5,7 +5,7 @@ let c = 'C'; // -> A
 
 console.log (a, b, c); // a,b,c 
 
-[a, b, c] = [b, c, a]; // using arrays (assignment via destructuring)
+[a, b, c] = [b, c, a]; // * using arrays (assignment via destructuring)
 
 console.log(a, b, c) // b,c,a
 
