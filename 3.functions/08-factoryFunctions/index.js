@@ -14,12 +14,13 @@ function createPerson2(name, surname) {
   return {
     name,
     surname,
+    mood: 'Happy', // ! must use THIS.
 
     // ! Method
     speak: function(subject) {
       return `${name} is speaking about ${subject}. \n${name} is ${this.mood}`
     },
-    mood: 'Happy' // ! must use THIS.
+
   }
 }
 const p2 = createPerson2('Marcelo', 'Bandeira')
