@@ -9,7 +9,6 @@ const persons = [
   {name: "Kikuri Hiroi", age: 27},
 ]
 
-
 // * Filter 
 const greater20 = nums.filter((value, index, array) => {
   return `Value: ${value > 20}`;
@@ -27,3 +26,10 @@ function callbackFilter(value, index, array) {
 const greater10 = nums.filter(callbackFilter);
 
 console.log(greater10)
+
+// * Filter with Objects
+const filterredPersons = persons.filter((person) => {
+  return person.name.length >= 12
+})
+
+console.log(filterredPersons)
