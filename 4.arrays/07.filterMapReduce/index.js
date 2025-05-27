@@ -19,9 +19,25 @@ console.log(doubleNums)
 
 
 // * Reduce (sum every value in nums)
-const sumNums = nums.reduce((a, v) =>{
+const sumNums = nums.reduce((a, v) =>{const sumNums = nums.reduce((a, v) =>{
+  a += v
+  return a
+})
   a += v
   return a
 })
 
 console.log(sumNums)
+
+
+// * Filter + Map + Reduce (only odds, double the values and sum everything)
+const newNums = nums.filter((v) => {
+  return v % 2 == 0
+}).map((v) => {
+  return v * 2
+}).reduce((a, v) => {
+  a += v
+  return a 
+})
+
+console.log(newNums)
